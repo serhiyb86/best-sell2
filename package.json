@@ -1,0 +1,41 @@
+{
+  "name": "best-sell",
+  "version": "1.0.0",
+  "description": "Accountant app",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "backbone.radio": "^2.0.0",
+    "js": "^0.1.0",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "backbone": "^1.5.0",
+    "bootstrap": "^5.3.2",
+    "bootstrap-css": "^4.0.0-alpha.5",
+    "css-loader": "^6.7.1",
+    "expose-loader": "^4.1.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jquery": "^3.7.1",
+    "jquery-ui": "^1.13.2",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "text-loader": "^0.0.1",
+    "webpack": "^5.70.0",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config webpack.dev.js"
+  },
+  "author": "Serhii Bohush",
+  "license": "ISC"
+}

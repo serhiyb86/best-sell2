@@ -1,0 +1,20 @@
+<table class="table table-hover">
+  <tr>
+    <th>ID</th>
+    <th>Назва</th>
+    <th>ЄДРПОУ</th>
+    <th>Тип клієнта</th>
+    <th>Статус клієнта</th>
+  </tr>
+  <tr th:each="cl: ${clients}">
+    <td th:text="${cl.id}"/>
+    <td th:text="${cl.abbName}"/>
+    <td th:text="${cl.ipn}"/>
+    <td th:text="${cl.clientType}"/>
+    <td th:text="${cl.clientStatus}"/>
+  </tr>
+</table>
+<script th:inline="javascript">
+  window.clients = [[${clients}]];
+  console.log(window.clients)
+</script>
